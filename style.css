@@ -1,0 +1,165 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+.container-fluid{
+   margin: 0px;
+   padding: 0px;
+}
+
+.header{
+    background-color:#d81f27 !important;
+    
+}
+.image-set{
+   height: 250px;
+   width: 100%;
+}
+
+.myBtn{
+   background-color:#d81f27 !important;
+   width: 100%;
+   margin-top: 3px;
+   margin-bottom: 3px;
+}
+
+.fbBtn{
+   background-color:#3B5998 !important;
+   width: 100%;
+   color: white;
+   margin-top: 3px;
+   margin-bottom: 10px;
+}
+#fb-icon{
+   height: 22px;
+
+}
+
+.coverPic{
+   height: 400px;
+   width: 100%;
+}
+
+.header-btn {
+   width: 120px;
+   padding: 2%;
+   border-radius: 9px;
+
+}
+
+.bg-image{
+    width: 100%;
+    height: 500px;
+}
+
+
+.title{
+   text-align: center;
+   margin: 0 auto 40px;
+   position: relative;
+   line-height: 60px;
+   color: #555;
+}
+.title::after{
+   content: '';
+   background: #d81f27;
+   width: 80px;
+   height: 5px;
+   border-radius: 5px;
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.title-1{
+   text-align: center;
+   margin: 0 auto ;
+   font-size: 70px;
+   color: white;
+background-color: black;
+}
+
+#center{
+background-color: white;
+padding: 30px;
+margin-top: 50px;
+margin-bottom: 50px;
+border-radius: 2%;
+}
+
+.loginSignuptitle{
+   text-align: center;
+   margin: -15px auto 14px;
+   position: relative;
+   line-height: 60px;
+   color: #555;
+}
+
+.background-image{
+   background: url('Images/back.jpg');
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   
+   background-size: cover;
+}
+/* footer */
+
+.footer{
+   margin-top: 20px;
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+   color: #8a8a8a;
+}
+.footer h3{
+   color: #fff;
+   margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2,.footer-col-3,.footer-col-4{
+   min-width: 250px;
+   margin-bottom: 20px;
+}
+.footer-col-1{
+   flex-basis: 30%;
+}
+.footer-col-2{
+   flex: 1;
+   text-align: center;
+}
+.footer-col-2 img{
+   width: 180px;
+   margin-bottom: 20px;
+}
+.footer-col-3,.footer-col-4{
+   flex-basis: 12%;
+   text-align: center;
+}
+ul{
+   list-style-type: none;
+}
+.app-logo{
+   margin-top: 20px;
+}
+.app-logo img{
+   width: 140px;
+}
+.footer hr{
+border: none;
+background: #b5b5b5;
+height: 1px;
+margin: 20px 0;
+}
+.copyright{
+text-align: center;    
+}
+.menu-icon{
+   width: 28px;
+   margin-left: 20px;
+   display: none;
+}
